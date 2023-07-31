@@ -4,7 +4,9 @@
     let diffDays = Math.round(Math.abs((new Date().getTime() - $birthdate.getTime()) / oneDay));
     let weeksSinceBirth = Math.floor(diffDays / 7);
     let totalWeeks = 90 * 52;
+    console.log("total weels" + totalWeeks);
     $: {
+        console.log("diff days : " + diffDays);
         console.log("weeks since birth : " + weeksSinceBirth);
         console.log("birthdate in grid : " + $birthdate);
     }
