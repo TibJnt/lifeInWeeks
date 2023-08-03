@@ -21,7 +21,7 @@
 </section>
 
 <style lang="postcss">
-	:global(html) {
+	/* :global(html) {
 	  background-color: theme(colors.black);
-	}
+	} */
 </style>
